@@ -8,7 +8,7 @@ from typing import TypedDict
 
 # API KEY
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAeH5NntkNPDV9QwJQ1pXAaZaqYzja1H_w"
+os.environ["GOOGLE_API_KEY"] = "API_KEY"
 
 # Load file
 with open("faq.txt", "r", encoding="utf-8") as f:
